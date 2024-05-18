@@ -230,31 +230,5 @@ ensuring swift resolution of any encountered issues.
         </div>
     </div>
 </section>
-<section id="section8">
-    <div class="vedio-wrapper">
-        <div class="container">
-            <div class="choose-box">
-                <div class="title-wrapper title-service center-title-wrapper ">
-                    <h2> <span>Video Tour</span></h2>
-                    <span> <img src="images/underline.png" alt="line"> </span>
-                </div>
-                <p class="para-text">
-                    "Explore our network through an engaging Video Tour, showcasing our commitment to seamless connectivity and exceptional service
-                </p>
-            </div>
-            <div class="vedio-inner-box">
-                <figure class="entry-thumb effect-v6">
-                    <div class="post-thumbnail  position-relative">
-                        <img src="images/videobg.jpg" alt="image4" class="img-fluid w-100">
-                        <a class="popup-youtube" href="https://youtu.be/BGnqAEOSCeg">
-                            <div class="vpop icon-class">
-                                <img src="images/v-icon.png" alt="icons">
-                            </div>
-                        </a>
-                    </div>
-                </figure>
-            </div>
-        </div>
-    </div>
-</section>
+
 @stop

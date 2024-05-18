@@ -31,7 +31,7 @@
                     </li>
                     @endforeach
                 </ul>
-                <div class="content-button text-uppercase"><a href="#">Get Now!</a></div>
+                <div class="content-button text-uppercase"><a  href="https://wa.me/254703666999?text=Hi Maranet, I am Interested in Internet plan: {{$plan['name'] }}">Get Now!</a></div>
             </div>
                     </div>
                     @endforeach

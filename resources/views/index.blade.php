@@ -7,25 +7,28 @@
         <div id="demo" class="carousel slide custom-slider-box" data-bs-ride="carousel">
             <div class="carousel-inner">
                 @foreach ($plans as $plan)
-                <div class="carousel-item active">
-                    <img src="images/slide5.png" alt="Los Angeles" class="d-block w-100">
-                    <div class="img-box"></div>
+                <div class="carousel-item active carousel-adjust" style="background-image: url(images/slide5.png)">
                     <div class="carousel-caption">
                         <h3>{{$plan['name']}} </h3>
-                        <h4>& quality home connection <span>Starting @ kes {{$plan['price']}} {{$plan['duration']}}</span></h4>
+                        <h4>quality connection <span>Starting @ kes {{$plan['price']}} {{$plan['duration']}}</span></h4>
                         <div class="tab-content" >
                             <ul class="row">
                                 @foreach (explode("\n", $plan['description']) as $line)
+                                {{-- should not be empty --}}
+                                @if (!empty($line))
                                 <li class="col-12 col-md-6 "><i class="fa-regular fa-circle-check"></i>
-                                {{$line}}
-                                </li>
+                                    {{$line}}
+                                    </li>
+                                @endif
+                               
                                 @endforeach
                             </ul>
                         </div>
                         <div class="btn-box">
                             <ul>
                                 <li>
-                                    <a href="javascript:;" class="slider-btn">
+                                    <a href="https://wa.me/254703666999?text=Hi Maranet, I am Interested in Internet plan: {{$plan['name'] }}
+                                    " class="slider-btn">
                                         Get Now
                                     </a>
                                 </li>
@@ -224,10 +227,7 @@
                     <span> <img src="images/underline.png" alt="line"> </span>
                 </div>
                 </div>
-                <p class="para-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
-                    aliquet.
-                    Aenean sollicitudin,
-                    lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                <p class="para-text">We offer a variety of internet plans with different speeds and prices. Choose the option that best suits your needs and budget.
                 </p>
             </div>
             <div class="row">
@@ -319,15 +319,14 @@
                             <div class="contact-info">
                                 <div class="media">
                                     <div class="media-body">
-                                        <div class="phone"><span>(+254)</span> 72333333<br>
-                                            <span>(+254)</span> 72333333
+                                        <div class="phone"><span>(254)</span> 703666999<br>
+                                            <span>(254)</span> 703666999
                                         </div>
                                     </div>
                                 </div>
                                 <div class="media">
                                     <div class="media-body">
-                                        <p>Kim's PLaza Opposite Total Petrol Station.
-                                      </p>
+                                        <p>Kims Plaza, 3rd Floor, Room D3</p>
                                         <p>Narok Town, Narok, Kenya</p>
                                         <p> Email : <a href="mailto:support@maranet.co.ke">support@maranet.co.ke</a></p>
                                     </div>
@@ -345,13 +344,5 @@
         </div>
     </div>
 </section>
-<!-- map iframe section start -->
-<section>
-    <div class="map-iframe w-100">
-        <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127641.6146844561!2d36.705238725952455!3d-1.2942394619657165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f113d23794a97%3A0xb39310a139138d6!2sDesignekta%20Studios!5e0!3m2!1sen!2ske!4v1715859496402!5m2!1sen!2ske"                
-        height="450" 
-        style="border:0"></iframe>
-    </div>
-</section>
+@include("includes.map")
 @stop

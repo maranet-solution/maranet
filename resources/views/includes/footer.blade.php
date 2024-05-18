@@ -82,7 +82,7 @@
                                         <li class="menu-item "><a href="javascript:;"><span><i
                                                         class="fa-solid fa-chevron-right"></i></span>support@maranet.co.ke</a></li>
                                         <li class="menu-item "><a href="javascript:;"><span><i
-                                                        class="fa-solid fa-chevron-right"></i></span>0700000000</a>
+                                                        class="fa-solid fa-chevron-right"></i></span>(+254) 703666999</a>
                                         </li>
                                         <li class="menu-item "><a href="javascript:;"><span><i
                                                         class="fa-solid fa-chevron-right"></i></span>FAQs</a></li>

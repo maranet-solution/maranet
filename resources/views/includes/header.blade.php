@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="copy-right-text">
-                        <p> <a href="javascript:;" class="phone-color">Phone: (+254) 7777777777</a> <a
+                        <p> <a href="javascript:;" class="phone-color">Phone: (+254) 703666999</a> <a
                                 href="mailto:noanet@example.com" class="email-color"> <span>Email :</span>
                                support@maranet.co.ke</a></p>
                     </div>
@@ -102,43 +102,15 @@
     <section>
         <div class="mobile-menu-wrapper">
             <div id="sidebar">
-                <div class="logo">
-                    <img src="images/f-logo.png" alt="logo">
-                </div>
                 <div id="toggle-close">&times;</div>
-                <div class="serach-nav-wrap">
-                    <div class="search-nav">
-                        <div class="search-box">
-                            <input type="text" name="search" placeholder="Search here...">
-                            <button><i class="fas fa-search"></i></button>
-                        </div>
-                    </div>
-                </div>
                 <div id='cssmenu'>
                     <ul class="float_left">
-                       <li class="has-sub">
-                          <a href="javascript:;">Home</a>
-                          <ul>
-                             <li><a href="index-1.html">Home 1</a></li>
-                             <li><a href="index-2.html">Home 2</a></li>
-                             <li><a href="index-3.html">Home 3</a></li>
-                             <li><a href="index-4.html">Home 4</a></li>
-                          </ul>
-                       </li>
-                       <li><a href="gallery.html">Gallery</a></li>
-                       <li><a href="about.html">About Us</a></li>
-                       <li><a href="service.html">Our Services</a></li>
-                       <li><a href="pricing.html">Pricing</a></li>
-                       <li><a href="faq.html">Faq</a></li>
-                       <li class="has-sub">
-                          <a href="javascript:;">Blog</a>
-                          <ul>
-                             <li><a href="index-1.html">Blog Single</a></li>
-                             <li><a href="index-2.html">Blog Categories 1</a></li>
-                             <li><a href="index-3.html">Blog Categories 2</a></li>
-                          </ul>
-                       </li>
-                       <li><a href="contact.html">Contact Us</a></li>
+                       <li><a href="/">Home</a></li>
+                       <li><a href="/about">About Us</a></li>
+                       <li><a href="/services">Services</a></li>
+                       <li><a href="/pricing">Pricing</a></li>
+                       <li><a href="/faq">Faq</a></li>
+                       <li><a href="/contact">Contact Us</a></li>
                     </ul>
                  </div>
             </div>
