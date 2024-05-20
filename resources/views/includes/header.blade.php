@@ -53,27 +53,27 @@
                             <nav class="navbar navbar-expand-lg">
                                 <ul class="navbar-nav">
                                  <li class="nav-item">
-                                    <a class="nav-link hover_menu" href="/">Home
+                                    <a class="nav-link hover_menu" href="{{url("/")}}">Home
                                     </a>
                                  </li>
                                     
                                     <li class="nav-item">
-                                       <a class="nav-link hover_menu" href="/about">About Us
+                                       <a class="nav-link hover_menu" href="{{url('/about')}}">About Us
                                        </a>
                                     </li>
                                     <li class="nav-item">
-                                       <a class="nav-link hover_menu" href="/services">Our Services
+                                       <a class="nav-link hover_menu" href="{{url('/services')}}">Our Services
                                        </a>
                                     </li>
                                     <li class="nav-item">
-                                       <a class="nav-link hover_menu" href="/pricing">Pricing</a>
+                                       <a class="nav-link hover_menu" href="{{url('/pricing')}}">Pricing</a>
                                     </li>
                                     <li class="nav-item">
-                                       <a class="nav-link hover_menu" href="/faq">Faq</a>
+                                       <a class="nav-link hover_menu" href="{{url('/faq')}}">Faq</a>
                                     </li>
                                     
                                     <li class="nav-item">
-                                       <a class="nav-link hover_menu" href="/contact">contact-us</a>
+                                       <a class="nav-link hover_menu" href="{{url('/contact')}}">contact-us</a>
                                     </li>
                                     
                                 </ul>
@@ -105,12 +105,12 @@
                 <div id="toggle-close">&times;</div>
                 <div id='cssmenu'>
                     <ul class="float_left">
-                       <li><a href="/">Home</a></li>
-                       <li><a href="/about">About Us</a></li>
-                       <li><a href="/services">Services</a></li>
-                       <li><a href="/pricing">Pricing</a></li>
-                       <li><a href="/faq">Faq</a></li>
-                       <li><a href="/contact">Contact Us</a></li>
+                       <li><a href="{{url('/')}}">Home</a></li>
+                       <li><a href="{{url('/about')}}">About Us</a></li>
+                       <li><a href="{{url('/services')}}">Services</a></li>
+                       <li><a href="{{url('/pricing')}}">Pricing</a></li>
+                       <li><a href="{{url('/faq')}}">Faq</a></li>
+                       <li><a href="{{url('/contact')}}">Contact Us</a></li>
                     </ul>
                  </div>
             </div>
