@@ -1,6 +1,11 @@
 @extends('layouts.default')
 @section('content')
+<?php
 
+function squish($string) {
+    return trim(preg_replace('/\s+/', '', $string));
+}
+?>
 <section>
     <div class="index-slider">
         <!-- Carousel -->
@@ -17,7 +22,7 @@
                                 {{-- should not be empty --}}
                                 @if (!empty($line))
                                 <li class="col-12 col-md-6 "><i class="fa-regular fa-circle-check"></i>
-                                    {{$line}}
+                                    {{squish($line)}}
                                     </li>
                                 @endif
                                
@@ -242,9 +247,7 @@
                         </div>
                         <div class="fbox-content">
                             <h3 class="ourservice-heading"><a href="javascript:;">Best Speed</a></h3>
-                            <p class="description">Looking for fast broadband without line rental fees? Look no
-                                further! We
-                                even include Net phone with every Naked DSL plan.</p>
+                            <p class="description">For optimal speed and performance, we offer top-of-the-line routers and expert installation services, ensuring that your network operates at its best.</p>
                         </div>
                     </div>
                 </div>
@@ -259,9 +262,9 @@
                         </div>
                         <div class="fbox-content">
                             <h3 class="ourservice-heading"><a href="javascript:;">installation & setup</a></h3>
-                            <p class="description">If you already have high-speed (broadband) Internet service at
-                                your house,
-                                it's pretty easy to create your own home wireless network.</p>
+                            <p class="description">
+                                We provide free installation assistance and include a router as part of our setup package to ensure a seamless integration process for our customers.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -277,9 +280,10 @@
                         <div class="fbox-content">
                             <h3 class="ourservice-heading"><a href="javascript:;">24 x 7 Service</a></h3>
                             <p class="description">
-                                Network users (such as MES servers) have to be able to communicate with one another
-                                from the protected
-                                and unprotected network .
+                                Network users, including MES servers, 
+                                must maintain the capability to seamlessly communicate with our team 
+                                at any hour, 
+                                ensuring swift resolution of any encountered issues.
                             </p>
                         </div>
                     </div>
