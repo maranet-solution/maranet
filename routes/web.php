@@ -8,8 +8,12 @@ Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
 Route::get('/about', [App\Http\Controllers\AboutController::class, 'about'])->name('about');
+Route::post('/about', [App\Http\Controllers\AboutController::class, 'updateAbout'])->name('update_about');
 Route::get('/services', [App\Http\Controllers\ServicesController::class, 'services'])->name('services');
 Route::get('/pricing', [App\Http\Controllers\PricingController::class, 'pricing'])->name('pricing');
+Route::get('/pricing/{id}', [App\Http\Controllers\PricingController::class, 'pricing_details'])->name('pricing_details');
+Route::post('/pricing/update/{id}', [App\Http\Controllers\PricingController::class, 'update'])->name('update_pricing');
+Route::post('/pricing', [App\Http\Controllers\PricingController::class, 'store'])->name('create_plan');
 Route::get('/faq', [App\Http\Controllers\FaqController::class, 'faq'])->name('faq');
 Route::get('/contact', [App\Http\Controllers\ContactController::class, 'contact'])->name('contact');
 Route::get('/admin', [App\Http\Controllers\AdminController::class, 'admin'])->name('admin');

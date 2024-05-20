@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Plans;
+use App\Models\Faq;
+use App\Models\About;
 
 class AdminController extends Controller
 {
@@ -18,15 +21,19 @@ class AdminController extends Controller
 
     public function about()
     {
-        return view('admin.about');
+        $aboutUs = About::first();
+
+        return view('admin.about', compact("aboutUs"));
     }
 
     public function faq()
     {
-        return view('admin.faq');
+        $faqs = Faq::all();
+        return view('admin.faq', compact("faqs"));
     }
     public function pricing()
     {
-        return view('admin.pricing');
+        $plans = Plans::all();
+        return view('admin.pricing', compact("plans"));
     }
 }

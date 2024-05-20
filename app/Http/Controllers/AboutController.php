@@ -13,4 +13,17 @@ class AboutController extends Controller
         $aboutUs = About::first();
         return view('about', compact("aboutUs"));
     }
+
+    public function updateAbout(Request $request)
+    {
+        // update about us
+        $aboutUs = About::first();
+        $aboutUs->vission = $request->input('vission');
+        $aboutUs->mission = $request->input('mission');
+        $aboutUs->strategy = $request->input('strategy');
+
+        $aboutUs->save();
+
+        return redirect()->back()->with('success', 'About us updated successfully');
+    }
 }
