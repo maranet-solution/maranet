@@ -576,7 +576,7 @@ ul {
   border-radius: 8px;
   background-color: #ffffff;
   display: none;
-  box-shadow: 2px 0 10px #0000001a;
+  box-shadow: 2px 0 10px #1111111a;
   transition: 0.3s all ease-in-out;
   transition: all 0.5s;
 }
@@ -3793,14 +3793,14 @@ img {
 }
 /* bottom footer */
 .bottom-footer {
-  background-color: #1a1a1a;
+  background-color: #d7d7d7;
   padding: 50px 0px 35px 0px;
 }
 .copy-right-area{
   width:100%;
 }
 .copy-right-text p {
-  color: #999999;
+  color: #111111;
 }
 .phone-color{
   color: #999999;
@@ -4560,7 +4560,7 @@ transition: all 0.5s;
   background-position: center center ;
 }
 .title-footer-wrap .kc_title{
-  color: #ffffff;
+  color: #111111;
   position: relative;
   text-align: left;
   font-weight: 800;
@@ -4579,7 +4579,7 @@ transition: all 0.5s;
 }
 /* index 2 top footer */
 .index2-footer{
-  background-color: #222222;
+  background-color: #dfdfdf;
   width:100%;
   padding: 90px 0px 65px 0px;
 }
@@ -4590,7 +4590,7 @@ transition: all 0.5s;
   padding: 20px 0px 15px 0px;
 }
 .footer2-para p{
- color:#999999;
+ color:#111111;
  padding-bottom: 15px;
 }
 .footer2-menu-box{
@@ -4605,7 +4605,7 @@ transition: all 0.5s;
   line-height: 2.5;
 }
 .menu li a {
-  color: #999;
+  color: #111111;
   text-transform: capitalize;
   font-size: 14px;
   transition:all 0.5s;
