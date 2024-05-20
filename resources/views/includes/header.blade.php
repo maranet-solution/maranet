@@ -45,7 +45,7 @@
                 <div class="container">
                     <div class="row d-flex " >
                         <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 flex-row d-flex align-items-center">
-                            <a class="navbar-brand index2-logo" href="/">
+                            <a class="navbar-brand index2-logo" href="{{url('/')}}">
                                 <img src="images/logo.png" alt="logo">
                             </a>
                         </div>
