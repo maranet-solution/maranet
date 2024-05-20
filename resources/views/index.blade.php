@@ -33,7 +33,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/pricing" class="slider-btn">
+                                    <a href="{{url('/pricing')}}" class="slider-btn">
                                         More plans
                                     </a>
                                 </li>
@@ -68,7 +68,7 @@
                     </p>
                 </div>
                 <div class="welcome-btn">
-                    <a href="/about" class="slider-btn">
+                    <a href="{{url('/about')}}" class="slider-btn">
                         About us
                     </a>
                 </div>
