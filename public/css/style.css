@@ -60,7 +60,7 @@
 
 /*|| Text color classes ||*/
 .txtPink {
-  color: #E5AE49;
+  color: #391F0E;
 }
 
 .txtBlack {
@@ -74,7 +74,7 @@
 /*|| Text color classes ||*/
 /*|| Border color classes ||*/
 .borderPink {
-  border-color: #E5AE49;
+  border-color: #391F0E;
 }
 
 .borderWhite {
@@ -88,7 +88,7 @@
 /*|| Border color classes ||*/
 /*|| Backgorund color classes ||*/
 .bgPink {
-  background-color: #E5AE49;
+  background-color: #391F0E;
 }
 
 .bgWhite {
@@ -454,7 +454,7 @@ ul {
 .main-header-wrapper1 .sb-main-header1 .menu-item-wrapper3 .my-menu-header nav ul .menu-click1 .dropdown-items .custom-tabs .nav-tabs {
   width: 30%;
   padding: 20px;
-  background-color: #E5AE49;
+  background-color: #391F0E;
   border: 0;
 }
 
@@ -466,12 +466,12 @@ ul {
 }
 
 .main-header-wrapper1 .sb-main-header1 .menu-item-wrapper3 .my-menu-header nav ul .menu-click1 .dropdown-items .custom-tabs .nav-tabs li button.active {
-  color: #E5AE49;
+  color: #391F0E;
 }
 
 .main-header-wrapper1 .sb-main-header1 .menu-item-wrapper3 .my-menu-header nav ul .menu-click1 .dropdown-items .custom-tabs .nav-tabs li button:hover {
   background-color: #ffffff;
-  color: #E5AE49;
+  color: #391F0E;
 }
 
 .main-header-wrapper1 .sb-main-header1 .menu-item-wrapper3 .my-menu-header nav ul .menu-click1 .dropdown-items .custom-tabs .tab-content {
@@ -564,7 +564,7 @@ ul {
 .main-header-wrapper1 .sb-main-header1 .menu-item-wrapper3 .my-menu-header nav ul li .dropdown-menu li a:hover {
   margin-left: 8px;
   background-color: transparent;
-  color: #E5AE49;
+  color: #391F0E;
 }
 
 .main-header-wrapper1 .sb-main-header1 .menu-item-wrapper3 .my-menu-header nav ul li .dropdown-menu li .sub-dropdown {
@@ -615,7 +615,7 @@ ul {
   font-weight: 600;
   padding-bottom: 8px;
   text-transform: uppercase;
-  color: #E5AE49;
+  color: #391F0E;
 }
 
 .main-header-wrapper1 .sb-main-header1 .menu-item-wrapper3 .my-menu-header nav ul li .dropdown-menu.short-code-menu li .megamenu-wrapper .megamenu-list a {
@@ -642,11 +642,11 @@ ul {
 
 .main-header-wrapper1 .sb-main-header1 .menu-item-wrapper3 .my-menu-header nav ul li .dropdown-menu.short-code-menu li .megamenu-wrapper .megamenu-list a:hover {
   margin-left: 8px;
-  color: #E5AE49;
+  color: #391F0E;
 }
 
 .main-header-wrapper1 .sb-main-header1 .menu-item-wrapper3 .my-menu-header nav ul li .dropdown-menu.short-code-menu li .megamenu-wrapper .megamenu-list a:hover:before {
-  background-color: #E5AE49;
+  background-color: #391F0E;
 }
 
 .main-header-wrapper1 .sb-main-header1 .menu-item-wrapper3 .my-menu-header nav ul li .dropdown-menu.short-code-menu li .megamenu-wrapper .megamenu-list a:last-child a {
@@ -819,7 +819,7 @@ section .mobile-menu-wrapper {
   border: none;
   width: 47px;
   height: 46px;
-  background: #E5AE49;
+  background: #391F0E;
   line-height: 26px;
   border-radius: 50%;
   text-align: center;
@@ -954,7 +954,7 @@ section .mobile-menu-wrapper {
   border-radius: 50px;
   line-height: 50px;
   font-size: 24px;
-  background: #E5AE49;
+  background: #391F0E;
   transition: all 0.3s ease;
   z-index: 1000;
   color: #ffffff;
