@@ -53,18 +53,18 @@
                                 </div>
                                 <div class="footer2-menu-box">
                                     <ul class="menu">
-                                        <li class="menu-item"><a href="/about"><span><i
+                                        <li class="menu-item"><a href="{{url('/about')}}"><span><i
                                                         class="fa-solid fa-chevron-right"></i></span> About Us</a>
                                         </li>
-                                        <li class="menu-item"><a href="/contact"><span><i
+                                        <li class="menu-item"><a href="{{url('/contact')}}"><span><i
                                                         class="fa-solid fa-chevron-right"></i></span> Contact us</a>
                                         </li>
-                                        <li class="menu-item"><a href="/services"><span><i
+                                        <li class="menu-item"><a href="{{url('/services')}}"><span><i
                                                         class="fa-solid fa-chevron-right"></i></span> Our Services</a></li>
                                         <li class="menu-item"><a href="javascript:;"><span><i
                                                         class="fa-solid fa-chevron-right"></i></span> Site Map</a>
                                         </li>
-                                        <li class="menu-item"><a href="/faq"><span><i
+                                        <li class="menu-item"><a href="{{url('/faq')}}"><span><i
                                                         class="fa-solid fa-chevron-right"></i></span> F.A.Q</a></li>
                                     </ul>
                                 </div>
