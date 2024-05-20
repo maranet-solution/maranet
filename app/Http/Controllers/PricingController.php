@@ -13,4 +13,9 @@ class PricingController extends Controller
 
         return view('pricing', compact("plans"));
     }
+
+    public function create(){
+
+        return view('admin.pricing');
+    }
 }
