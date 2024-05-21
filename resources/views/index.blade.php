@@ -21,9 +21,7 @@ function squish($string) {
                                 @foreach (explode("\n", $plan['description']) as $line)
                                 {{-- should not be empty --}}
                                 @if (!empty($line))
-                                <li class="col-12 col-md-6 "><i class="fa-regular fa-circle-check"></i>
-                                    {{squish($line)}}
-                                    </li>
+                                <li class="col-12 col-md-6 "><i class="fa-regular fa-circle-check"></i>{{$line}}</li>
                                 @endif
                                
                                 @endforeach
