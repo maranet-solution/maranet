@@ -1,0 +1,3 @@
+RewriteEngine OnRewriteCond %{HTTP_HOST} !^/maranet.co.ke$
+    RewriteRule ^(.*)$ https://maranet.co.ke/$1 [R=301,L]
+    Options +FollowSymLinks
