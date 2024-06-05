@@ -8,21 +8,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- css Library -->
 <!-- bootstarp link-->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<!-- fontawesome link -->
-<link rel="stylesheet" href="css/all.css">
-<!-- owl carousel link -->
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
-<!-- font css start -->
-<link rel="stylesheet" href="css/fonts.css">
-<!-- magnific-popup css link -->
-<link rel="stylesheet" href="css/magnific-popup.css">
-<!-- css links -->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/responsive.css">
+ <link rel="stylesheet" type="text/css" href="css/fonts.css">
+<link rel="stylesheet" type="text/css" href="css/all.css">
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/slider.css">
+<link rel="stylesheet" type="text/css" href="css/darkstyle.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
 <!--favicon-->
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+<link rel="shortcut icon" type="image/png" href="images/fav-icon.png">

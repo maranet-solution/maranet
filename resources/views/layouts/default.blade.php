@@ -19,23 +19,69 @@
 
     @yield("content")
     
-    @include("includes.footer")
+    @include("includes.footer")<script src="js/jquery-3.6.0.min.js"></script>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/jquery.magnific-popup.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>
+    <script src='https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js'></script>
+    <script src="/js/custom.js"></script>
+    <script>
+       $('.slider').slick({
+          autoplay: true,
+          speed: 800,
+          lazyLoad: 'progressive',
+          arrows: true,
+          dots: false,
+          adaptiveHeight: true,
+          prevArrow: '<div class="slick-nav prev-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+          nextArrow: '<div class="slick-nav next-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+       }).slickAnimation();
+ 
+ 
+ 
+       $('.slick-nav').on('click touch', function (e) {
+ 
+          e.preventDefault();
+ 
+          let arrow = $(this);
+ 
+          if (!arrow.hasClass('animate')) {
+             arrow.addClass('animate');
+             setTimeout(() => {
+                arrow.removeClass('animate');
+             }, 1600);
+          }
+ 
+       });
+    </script>
+    <script>
+       $('.counting').each(function () {
+     var $this = $(this),
+         countTo = $this.attr('data-count');
 
-    <!--  Js Library -->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <!-- Include  for bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Include  for Owl-carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- image gallery js -->
-    <script src="js/isotope.pkgd.min.js"></script>
-    <!-- magnific pop js -->
-    <script src="js/jquery.magnific-popup.js"></script>
-    <!-- custom js link -->
-    <script src="js/common.js"></script>
+     $({ countNum: $this.text() }).animate({
+         countNum: countTo
+     }, 
+         {
+
+             duration: 3000,
+             easing: 'linear',
+             step: function () {
+                 $this.text(Math.floor(this.countNum));
+             },
+             complete: function () {
+                 $this.text(this.countNum);
+                 //alert('finished');
+             }
+ 
+         });
+ 
+ 
+ });
+    </script>
 
 </body>
-
-
-<!-- Mirrored from webstrot.com/html/maranet/maranet/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 May 2024 06:39:21 GMT -->
 </html>
