@@ -61,9 +61,7 @@
               
            </ul>
         </div>
-        <div class="creativity-img wow fadeInRight slide__content__right" data-wow-delay="300ms">
-           <img src="images/creativity.png" alt="img">
-        </div>
+        
      </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
