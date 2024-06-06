@@ -19,7 +19,15 @@
                       <div class="plan-box-wrapper wow fadeInUp" data-wow-delay="100ms">
                          <div class="plant-text">
                             <div class="title">
-                               <span> <img src="images/basic.png" alt="icon"> </span>
+                               @if ($loop->iteration ==1)
+                                <span> <img src="images/mammal.png" alt="icon"> </span>
+                                @endif
+                                @if ($loop->iteration ==2)
+                                <span> <img src="images/lion.png" alt="icon"> </span>
+                                @endif
+                                @if ($loop->iteration ==3)
+                                <span> <img src="images/elephant.png" alt="icon"> </span>
+                                @endif
                                <h4>{{$plan['name']}}</h4>
                             </div>
                             <h2> <span>kes</span>{{$plan['price']}}</h2>
