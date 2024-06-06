@@ -22,4 +22,4 @@
 <link rel="stylesheet" type="text/css" href="css/animate.css">
 <link rel="stylesheet" type="text/css" href="css/responsive.css">
 <!--favicon-->
-<link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico">
