@@ -3577,7 +3577,6 @@ input#apus-user-remember {
 
 .contact-info .media {
     padding: 5px 0;
-    width: 45%;
     display: inline-block;
     border-right: 1px dashed #636363;
     padding-right: 40px;
@@ -6429,4 +6428,11 @@ img {
     object-fit: contain;
     object-position: center;
     aspect-ratio: 16 / 5;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 12px;
+    font-family: "Raleway";
 }
