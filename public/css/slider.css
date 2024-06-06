@@ -45,7 +45,7 @@
     transform: translate(5%, -50%);
 }
 .slide .slide__content--headings {
-    border-left: 3px solid #4141a5;
+    /* border-left: 3px solid #4141a5; */
     padding-left: 30px;
 }
 .slide .slide__content--headings h2 {

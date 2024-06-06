@@ -66,13 +66,6 @@
                                        </a>
                                     </li>
                                     <li class="nav-item">
-                                       <a class="nav-link hover_menu" href="{{url('/pricing')}}">Pricing</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a class="nav-link hover_menu" href="{{url('/faq')}}">Faq</a>
-                                    </li>
-                                    
-                                    <li class="nav-item">
                                        <a class="nav-link hover_menu" href="{{url('/contact')}}">contact-us</a>
                                     </li>
                                     
@@ -108,8 +101,6 @@
                        <li><a href="{{url('/')}}">Home</a></li>
                        <li><a href="{{url('/about')}}">About Us</a></li>
                        <li><a href="{{url('/services')}}">Services</a></li>
-                       <li><a href="{{url('/pricing')}}">Pricing</a></li>
-                       <li><a href="{{url('/faq')}}">Faq</a></li>
                        <li><a href="{{url('/contact')}}">Contact Us</a></li>
                     </ul>
                  </div>

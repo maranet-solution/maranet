@@ -20,8 +20,6 @@
                 </div>
             </div>
         </section>
-        <!--  blog categories wrapper end-->
-        <!-- service section  start -->
         <section>
             <div class="service-wrapper">
                 <div class="container">
@@ -247,109 +245,6 @@
                 </div>
             </div>
         </section>
-        <!-- service  secction  end -->
-        <!-- free download section start -->
-        <section>
-            <div class="personal-speed">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-12 col-lg-12 col-xl-7">
-                            <div class="personal-speed-content">
-                                <div class="personal-heading">
-                                    <h2>Your personal – speed</h2>
-                                </div>
-                                <div class="personal-heading-2">
-                                    <p>& quality home connection <span> Starting @ $ 22 / mo </span></p>
-                                </div>
-                                <p>
-                                    When choosing among the best high speed Internet providers,
-                                    there are several other factors that should be taken into consideration
-                                    besides just the available download speeds.
-                                </p>
-                                <div class="personal-btn-box">
-                                    <a href="javascript:;" class="common-button">
-                                        More plans
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-12 col-lg-12 col-xl-5">
-                            <div class="personal-img-box">
-                                <img src="images/use-phone.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- free download section end -->
-        <!-- news question section start -->
-        <section>
-            <div class="news-ques-wrap">
-                <div class="container">
-                    <div class="choose-box">
-                        <div class="title-wrapper title-service center-title-wrapper ">
-                            <h2> <span>Few Questions </span></h2>
-                            <span> <img src="images/underline.png" alt="line"> </span>
-                        </div>
-                        <p class="para-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
-                            aliquet.
-                            Aenean sollicitudin,
-                            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-12 col-lg-6">
-                            <div class="faq-content">
-                                <div class="acc-container" id="accordionExampleA">
-                                    @foreach ($faqs2 as $faq) 
-                                    <div class="acc-btn" id="heading{{$faq['id']}}">
-                                        <a class="acc_ctrl {{ $loop->first ? 'active' : ''}}" data-bs-toggle="collapse" href="#collapse{{$faq['id']}}"
-                                            aria-expanded="false">{{$faq['question']}}
-                                        </a>
-                                    </div>
-                                    <div class="acc-content accordion-collapse collapse" id="collapse{{$faq['id']}}"
-                                        aria-labelledby="heading{{$faq['id']}}" data-bs-parent="#accordionExampleB">
-                                        <div class="acc-content-inner card card-body">
-                                            <div class="tab-contents">
-                                               {{ $faq['answer'] }}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    @endforeach
-                                   
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-12 col-lg-6">
-                            <div class="faq-content">
-                                <div class="acc-container" id="accordionExampleB">
-                                    @foreach ($faqs as $faq) 
-                                    <div class="acc-btn" id="heading{{$faq['id']}}">
-                                        <a class="acc_ctrl {{ $loop->first ? 'active' : ''}}" data-bs-toggle="collapse" href="#collapse{{$faq['id']}}"
-                                            aria-expanded="false">{{$faq['question']}}
-                                        </a>
-                                    </div>
-                                    <div class="acc-content accordion-collapse collapse" id="collapse{{$faq['id']}}"
-                                        aria-labelledby="heading{{$faq['id']}}" data-bs-parent="#accordionExampleB">
-                                        <div class="acc-content-inner card card-body">
-                                            <div class="tab-contents">
-                                               {{ $faq['answer'] }}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    @endforeach
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- our service section end -->
-        <!-- choose-us-wrapper section start-->
         <section>
             <div class="service-wrap">
                 <div class="container">
