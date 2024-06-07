@@ -1,17 +1,17 @@
 <section>
-    <div class="top-header">
+    <div class="top-header" style="padding:6px opx">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="copy-right-text">
-                        <p> <a href="javascript:;" class="phone-color">Phone: (+254) 703666999</a> <a
+                        <span> <a href="javascript:;" class="phone-color">Phone: (+254) 703666999</a> <a
                                 href="mailto:noanet@example.com" class="email-color"> <span>Email :</span>
-                               support@maranet.co.ke</a></p>
+                               support@maranet.co.ke</a></span>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="ul-box-wrap">
-                        <ul class="social list-inline">
+                        <ul class="social list-inline" style="margin-bottom: 0px">
                             <li>
                                 <a href="javascript:;" title="">
                                     <i class="fa-brands fa-facebook-f"></i>
