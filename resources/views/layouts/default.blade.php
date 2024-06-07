@@ -24,6 +24,8 @@
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/wow.min.js"></script>
     <script src="/js/jquery.magnific-popup.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
     <script src="/js/owl.carousel.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>
     <script src='https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js'></script>
@@ -57,31 +59,5 @@
  
        });
     </script>
-    <script>
-       $('.counting').each(function () {
-     var $this = $(this),
-         countTo = $this.attr('data-count');
-
-     $({ countNum: $this.text() }).animate({
-         countNum: countTo
-     }, 
-         {
-
-             duration: 3000,
-             easing: 'linear',
-             step: function () {
-                 $this.text(Math.floor(this.countNum));
-             },
-             complete: function () {
-                 $this.text(this.countNum);
-                 //alert('finished');
-             }
- 
-         });
- 
- 
- });
-    </script>
-
 </body>
 </html>
