@@ -1,5 +1,5 @@
 <section>
-    <div class="top-header" style="padding:6px opx">
+    <div class="top-header" style="padding:4px 0px">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-6 col-lg-6">
