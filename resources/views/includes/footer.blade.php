@@ -64,8 +64,7 @@
                                         <li class="menu-item"><a href="javascript:;"><span><i
                                                         class="fa-solid fa-chevron-right"></i></span> Site Map</a>
                                         </li>
-                                        <li class="menu-item"><a href="{{url('/faq')}}"><span><i
-                                                        class="fa-solid fa-chevron-right"></i></span> F.A.Q</a></li>
+                                       
                                     </ul>
                                 </div>
                             </div>
@@ -84,9 +83,7 @@
                                         <li class="menu-item "><a href="javascript:;"><span><i
                                                         class="fa-solid fa-chevron-right"></i></span>(+254) 703666999</a>
                                         </li>
-                                        <li class="menu-item "><a href="javascript:;"><span><i
-                                                        class="fa-solid fa-chevron-right"></i></span>FAQs</a></li>
-                                    </ul>
+                                        </ul>
                                 </div>
                             </div>
                         </div>
