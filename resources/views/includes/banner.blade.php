@@ -1,6 +1,6 @@
-<section class="banner__slider">
+<section class="banner__slider ">
     <div class="slider stick-dots">
-       <div class="slide">
+       <div class="slide carousel-adjust ">
           <div class="slide__content slide__content__left">
              <div class="slide__content--headings text-left">
                 <p class="animated top-title" data-animation-in="fadeInRight" data-delay-in="0.2">
@@ -21,9 +21,9 @@
              </div>
           </div>
        </div>
-       <div class="creativity-wrapper slide">
+       <div class="creativity-wrapper slide carousel-adjust ">
          
-        <div class="creativity-box-wrapper wow fadeInLeft slide__content__left" data-wow-delay="200ms"> 
+        <div class="creativity-box-wrapper wow fadeInLeft slide__content__left " data-wow-delay="200ms"> 
            <ul>
               <li>
                  <img src="images/hexagon1.png" alt="shape">
