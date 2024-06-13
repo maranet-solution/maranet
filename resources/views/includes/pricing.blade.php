@@ -33,8 +33,9 @@
                                 @endif
                                <h4  class="col-6">{{$plan['name']}}</h4>
                             </div>
-                            <h2> <span>kes</span>{{$plan['price']}}</h2>
-                            <p class="pt-0">Per month</p>
+                            <h2><span style="color:orangered">{{$plan['speed']}}MBps</span> 
+                               </h2>
+                            <p class="pt-0"> At  <span style="color:orangered">Kes {{$plan['price']}} </span> Per month</p>
                          </div>
                          <div class="plant-list">
                             @foreach (explode("\n", $plan['description']) as $line)
