@@ -9,7 +9,8 @@ class PricingController extends Controller
 {
     public function pricing()
     {
-        $plans = Pricing::all();
+        // order by id ascending
+        $plans = Pricing::orderBy('id', 'asc')->get();
 
         return view('pricing', compact("plans"));
     }
