@@ -17,18 +17,21 @@
                     @foreach ($plans as $plan)
 
                       <div class="plan-box-wrapper wow fadeInUp" data-wow-delay="100ms">
-                         <div class="plant-text">
-                            <div class="title">
+                         <div class="plant-text row">
+                            <div class="title row">
                                @if ($loop->iteration ==1)
-                                <span> <img src="images/mammal.png" alt="icon"> </span>
+                                <span class="col-6"> <img src="images/mammal.png" alt="icon"> </span>
                                 @endif
                                 @if ($loop->iteration ==2)
-                                <span> <img src="images/lion.png" alt="icon"> </span>
+                                <span  class="col-6"> <img src="images/lion.png" alt="icon"> </span>
                                 @endif
                                 @if ($loop->iteration ==3)
-                                <span> <img src="images/elephant.png" alt="icon"> </span>
+                                <span  class="col-6"> <img src="images/elephant.png" alt="icon"> </span>
                                 @endif
-                               <h4>{{$plan['name']}}</h4>
+                                @if ($loop->iteration ==4)
+                                <span  class="col-6"> <img src="images/cheetah.png" alt="icon"> </span>
+                                @endif
+                               <h4  class="col-6">{{$plan['name']}}</h4>
                             </div>
                             <h2> <span>kes</span>{{$plan['price']}}</h2>
                             <p class="pt-0">Per month</p>
