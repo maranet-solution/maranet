@@ -56,6 +56,10 @@
               <div class="form-group">
                 <label>Price</label>
                 <input name="price" type="number" class="price form-control" placeholder="price Here" >
+              </div>  
+              <div class="form-group">
+                <label>speed</label>
+                <input name="speed" type="number" class="speed form-control" placeholder="speed Here" >
               </div> 
               <div class="form-group">
                 <label>Plan Duration</label>
@@ -92,6 +96,10 @@
               <div class="form-group">
                 <label>Price</label>
                 <input name="price" type="number" class="price form-control" placeholder="price Here" >
+              </div> 
+              <div class="form-group">
+                <label>speed</label>
+                <input name="speed" type="number" class="speed form-control" placeholder="speed Here" >
               </div> 
               <div class="form-group">
                 <label>Plan Duration</label>
