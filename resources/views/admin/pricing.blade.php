@@ -40,7 +40,7 @@
       </div>
       <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
-          <form method="post" class="modal-content save-form">
+          <form method="post"  class="modal-content save-form">
             @csrf
             <div class="modal-header">
               <h5 class="modal-title" id="editModalLabel">Update Plan</h5>
@@ -148,6 +148,7 @@
     $('.description').val(res.description);
     $('.price').val(res.price);
     $('.duration').val(res.duration);
+
   })
 
   $('.saveEdit').on('click', function() {

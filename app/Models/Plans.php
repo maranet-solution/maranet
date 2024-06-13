@@ -15,5 +15,6 @@ class Plans extends Model
         'price',
         'duration',
         'desscription',
+        "speed",
     ];
 }

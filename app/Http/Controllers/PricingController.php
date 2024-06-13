@@ -41,6 +41,7 @@ class PricingController extends Controller
             'duration' => $request->input('duration'),
             'description' => $request->input('description'),
             'price' => $request->input('price'),
+            'speed' => $request->input('speed'),
         ]);
         $plans->save();
 
@@ -56,6 +57,7 @@ class PricingController extends Controller
         $plans->duration = $request->input('duration');
         $plans->description = $request->input('description');
         $plans->price = $request->input('price');
+        $plans->speed = $request->input('speed');
         $plans->image = "";
 
         $plans->save();
